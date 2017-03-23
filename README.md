@@ -1,13 +1,15 @@
 # Excel dashboard fed by PHP basic webservice
 
-The use of Excel is a good solution here, more than for its nice charts, by the way finance and business professionals can model and simulate the Budget numbers.
+Excel us still usefulll because no mather how much tech people can make a rich interface, finance and business professionals want to model and simulate their Budget numbers.
 
-The connection to a simple webservice (itself later connected to a control application), is an alternative to the less safe and more labor intensive manual inputng that is still very common in the finance and business areas.
+An example shown here is modelling the sales budget growth according to adoption curves.
+
+The connection to a simple webservice (itself later connected to a control application), is an alternative to the less safe and more labor intensive manual input that is still very common in the finance and business areas.
 
 ### Scope
 
-This sample contains
-* Dashboard Excel sample: excel/dash.xlsm spreadsheet including documentation in the "Help" sheet
+This sample contains:
+* Dashboard Excel sample: excel/dash.xlsm spreadsheet including documentation in the "Help" sheet and the modelling of a S logistic adoption curve
 * Webservice: index.php provides the sales invoice JSON, based by a hardcoded database
 * Viewer: viewer/index.html shows the JSON in the browser console through a Jquery http request   
 
@@ -23,12 +25,12 @@ Backend
 * PHP
 
 ## Set up
------------
+---------
 
-Tou can load these files in a test folder of your web server or just run them from http://www.immaginareservice.com.br/app/exasrvpm
+You can load these files in a test folder of your web server or just run them from http://www.immaginareservice.com.br/app/exasrvpm
 
 ## Tests
------------
+--------
 * Read the JSON at http://www.immaginareservice.com.br/app/exasrvpm
 * Dowload and open the Excel worksheet
 ** at http://www.immaginareservice.com.br/app/exasrvpm/excel/dash.xlsm
