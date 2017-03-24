@@ -1,6 +1,6 @@
-# Excel dashboard fed by PHP basic webservice
+# Excel Budget x Actual dashboard whith adoption curve and fed by webservice
 
-Excel us still usefulll because no mather how much tech people can make a rich interface, finance and business professionals want to model and simulate their Budget numbers.
+Excel us still usefull because no mather how much tech people can make a rich interface, finance and business professionals want to model and simulate their Budget numbers.
 
 An example shown here is modelling the sales budget growth according to adoption curves.
 
