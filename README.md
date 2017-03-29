@@ -1,4 +1,4 @@
-# dashboard for Budget x Actual sales whith adoption curve - in Excel fed by webservice
+# Dashboard for Budget x Actual sales whith adoption curve - in Excel fed by webservice
 
 Excel us still usefull because no mather how much tech people can make a rich interface, finance and business professionals want to model and simulate their Budget numbers.
 
