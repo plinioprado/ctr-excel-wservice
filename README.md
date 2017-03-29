@@ -1,4 +1,4 @@
-# Excel Budget x Actual dashboard whith adoption curve and fed by webservice
+# dashboard for Budget x Actual sales whith adoption curve - in Excel fed by webservice
 
 Excel us still usefull because no mather how much tech people can make a rich interface, finance and business professionals want to model and simulate their Budget numbers.
 
@@ -36,6 +36,9 @@ You can load these files in a test folder of your web server or just run them fr
 ** at http://www.immaginareservice.com.br/app/exasrvpm/excel/dash.xlsm
 * Test if the webservice is loading
 ** In the DbWservice sheet, press "Import" and see if the 12 invoices will be loaded
+* Test if the webservice also load from a PHP REST response file
+** At the sheet "Param", in the cell for "url api" replace "https://immaginareservice.websiteseguro.com/app/exasrvpm/api/sales.json" for "https://immaginareservice.websiteseguro.com/app/exasrvpm/api/sales.php"
+** See if the 12 invoices are still loaded
 * Test if the Dashboard graphs work
 ** In the Param sheet, input 2 in "1-Excel/2-Wservice" and see if the graphs in the Dash sheet will still show te same picture
 
